@@ -1,3 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 canvas{
-    border:black 1px solid;
+    border:black 10px solid;
+    background-image: url('../img/background.png');
 }
